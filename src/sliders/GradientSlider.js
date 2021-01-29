@@ -21,6 +21,7 @@ const GradientSlider = ({
         step={step}
         animateTransitions
         animationType="spring"
+        animationConfig={{ useNativeDriver: false }}
         thumbTouchSize={{ width: 48, height: 48 }}
         maximumValue={maximumValue}
         onValueChange={onValueChange}
